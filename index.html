@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/dcab0f297b.js"></script>
+  </head>
+  <body>
+    <!--title -->
+    <div class="title">
+      <h1>To-Do List</h1>
+    </div>
+    <!-- header where user can enter an item-->
+    <div id="container">
+      <header>
+        <input
+          id="item"
+          type="text"
+          placeholder="Add a to-do"
+          autocomplete="off"
+        />
+        <!--<div class = "add-item"> -->
+        <button id="add"><i class="fa fa-plus"></i></button>
+      </header>
+      <!--pending and completed tasks-->
+      <h2 id="pending-title">pending</h2>
+      <ul id="pending-tasks"></ul>
+      <h2 id="completed-title">completed</h2>
+      <ul class="completed" id="completed"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  font-family: "Indie Flower", cursive;
+  padding: 0;
+  margin: 0;
+  background-color: #eee0cb;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  position: absolute;
+  display: flex;
+  margin: 0%;
+  font-size: 80%;
+}
+
+#container {
+  background-color: #8eb8e5;
+  padding: 2%;
+  min-height: 80vh;
+  min-width: 40vw;
+  width: auto;
+  height: auto;
+  margin-top: 10vh;
+  border-radius: 4%;
+}
+
+#add:hover {
+  cursor: pointer;
+}
+
+h2 {
+  display: inline-block;
+  text-decoration: underline;
+  justify-content: center;
+  position: relative;
+}
+
+.pending-title {
+  margin-bottom: 15%;
+}
+#completed-title {
+  margin-top: 13%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header input {
+  min-height: 20px;
+  width: 100%;
+  border: none;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+}
+
+header button {
+  min-width: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  outline: none;
+}
+
+header button:hover {
+  color: blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  padding: 2%;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+li .buttons {
+  min-width: 100px;
+  margin-left: auto;
+  display: inline;
+}
+
+li .buttons button {
+  background: none;
+  min-width: 40px;
+  border: none;
+  font-size: 2rem;
+  outline: none;
+}
+
+.completed li {
+  background-color: #419d78;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+/*
+.completed .buttons .fa-check {
+  pointer-events: none;
+}
+*/
